@@ -1,0 +1,16 @@
+name: optimization-suggester
+description: Suggest competitive programming performance and memory optimizations.
+input_schema:
+  type: object
+  properties:
+    current_code:
+      type: string
+      description: The working implementation to optimize.
+    target_time_limit_ms:
+      type: integer
+      description: Judge time limit in milliseconds.
+    target_memory_limit_mb:
+      type: integer
+      description: Judge memory limit in megabytes.
+  required:
+    - current_code

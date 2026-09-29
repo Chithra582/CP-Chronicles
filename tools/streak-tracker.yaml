@@ -1,0 +1,19 @@
+name: streak-tracker
+description: Record completed daily submissions, compute streaks, and log practice milestones.
+input_schema:
+  type: object
+  properties:
+    day_number:
+      type: integer
+      description: Sequential day number in the challenge (e.g. 1 for day-001).
+    problem_id:
+      type: string
+      description: Identifier or URL of the problem solved.
+    status:
+      type: string
+      enum: [solved, attempted, optimized]
+      description: Outcome of the daily practice session.
+  required:
+    - day_number
+    - problem_id
+    - status

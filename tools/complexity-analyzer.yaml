@@ -1,0 +1,18 @@
+name: complexity-analyzer
+description: Calculate asymptotic time and space complexity and verify against judge limits.
+input_schema:
+  type: object
+  properties:
+    code_snippet:
+      type: string
+      description: The source code implementation to evaluate.
+    language:
+      type: string
+      enum: [cpp, python, java, rust]
+      description: Programming language of the solution.
+    constraints:
+      type: string
+      description: Constraints on N, M, or time limit (e.g. 'N <= 2e5, time limit 1.0s').
+  required:
+    - code_snippet
+    - language

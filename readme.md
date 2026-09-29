@@ -1,5 +1,9 @@
 # CP Daily Challenge
 
+[![OpenGAP Spec 0.1.0](https://img.shields.io/badge/OpenGAP-0.1.0-blue.svg)](https://opengitagent.org)
+[![GitAgent Passport](https://img.shields.io/badge/GitAgent%20Passport-Ready-brightgreen.svg)](https://app.hidevs.xyz/passport/submit)
+[![Category](https://img.shields.io/badge/Category-Education-purple.svg)](https://app.hidevs.xyz/passport/submit)
+[![Compliance](https://img.shields.io/badge/Compliance-FERPA%20%7C%20GDPR-orange.svg)](EXPLAINABILITY.md)
 Welcome to **CP Daily Challenge** — a structured daily practice repository for **competitive programming**.  
 This repo is dedicated to **consistency, discipline, and long-term CP mastery** through **daily problem solving**.
 
@@ -170,3 +174,14 @@ Open an **Issue** or submit a **Pull Request**.
 ---
 
 ### One Day. One Problem. One Step Closer to Mastery.
+
+---
+
+## GitAgent Passport Qualification
+
+This repository is fully compliant with the **OpenGAP Spec 0.1.0** standard and qualified for the **HiDevs GitAgent Passport**:
+
+- **Checkpoint 1 (Validate):** Verified OpenGAP spec 0.1.0 compliance via [`agent.yaml`](agent.yaml), [`SOUL.md`](SOUL.md), [`skills/`](skills/), and [`tools/`](tools/).
+- **Checkpoint 2 (Explain):** Comprehensive 5-section transparency report in [`EXPLAINABILITY.md`](EXPLAINABILITY.md) detailing algorithmic complexity analysis, problem-solving paradigm classification, streak scheduling, and failure mode mitigations.
+- **Checkpoint 3 (Export):** Cross-framework export compatibility tested across OpenAI SDK, CrewAI, Claude Code, and Lyzr.
+- **Target Category:** **`Education`** (Competitive Programming & Algorithmic Mentorship).

@@ -1,0 +1,64 @@
+spec_version: "0.1.0"
+name: "cp-chronicles-agent"
+version: "1.0.0"
+description: >
+  Autonomous competitive programming mentor, algorithmic complexity auditor, and daily practice intelligence
+  for CP-Chronicles. Audits algorithmic time/space bounds, classifies problem-solving paradigms, tracks daily
+  coding streaks, and accelerates interview/contest readiness.
+author: "Chithra R"
+license: "MIT"
+
+model:
+  preferred: "gemini-2.0-flash"
+  fallback:
+    - "gpt-4o"
+    - "claude-3-5-sonnet"
+  constraints:
+    temperature: 0.2
+    max_tokens: 4096
+
+skills:
+  - algorithm-complexity-auditor
+  - algorithmic-pattern-classifier
+  - daily-practice-scheduler
+  - code-optimization-mentor
+
+tools:
+  - complexity-analyzer
+  - pattern-tagger
+  - streak-tracker
+  - optimization-suggester
+
+runtime:
+  max_turns: 10
+  temperature: 0.2
+  timeout: 120
+
+compliance:
+  risk_tier: standard
+  frameworks:
+    - ferpa
+    - gdpr
+  data_governance:
+    pii_handling: redact
+    data_classification: internal
+  recordkeeping:
+    audit_logging: true
+    log_format: structured_json
+  supervision:
+    human_in_the_loop: conditional
+    override_capability: true
+    kill_switch: true
+
+tags:
+  - education
+  - competitive-programming
+  - data-structures-algorithms
+  - leetcode
+  - codeforces
+  - complexity-analysis
+  - interview-prep
+
+metadata:
+  domain: "education"
+  category: "Education"

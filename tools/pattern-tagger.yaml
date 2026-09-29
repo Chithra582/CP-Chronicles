@@ -1,0 +1,19 @@
+name: pattern-tagger
+description: Tag competitive programming problems with algorithmic paradigms and data structures.
+input_schema:
+  type: object
+  properties:
+    problem_title:
+      type: string
+      description: Title or identifier of the problem.
+    problem_statement:
+      type: string
+      description: Summary of the problem description and constraints.
+    tags:
+      type: array
+      items:
+        type: string
+      description: Identified topics (e.g. ['dp', 'binary-search', 'trees']).
+  required:
+    - problem_title
+    - problem_statement
